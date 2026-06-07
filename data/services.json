@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "E-commerce Platform",
+    "category": "web",
+    "description": "Полнофункціональна платформа e-commerce з каталогом, кошиком та системою платежів",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+    "year": 2023
+  },
+  {
+    "id": 2,
+    "name": "Mobile App UI Kit",
+    "category": "design",
+    "description": "Комплексний набір компонентів для розробки мобільних додатків",
+    "technologies": ["Figma", "UI/UX Design", "Prototyping"],
+    "year": 2023
+  },
+  {
+    "id": 3,
+    "name": "Task Management App",
+    "category": "mobile",
+    "description": "iOS та Android додаток для управління завданнями з синхронізацією в хмарі",
+    "technologies": ["React Native", "Firebase", "Redux"],
+    "year": 2022
+  },
+  {
+    "id": 4,
+    "name": "SPA Dashboard",
+    "category": "web",
+    "description": "Однсторінковий веб-додаток для аналізу даних та звітів",
+    "technologies": ["Vue.js", "Chart.js", "REST API"],
+    "year": 2022
+  },
+  {
+    "id": 5,
+    "name": "Brand Guidelines",
+    "category": "design",
+    "description": "Повна документація брендбука із логотипом, паліттрою та типографією",
+    "technologies": ["Figma", "Brand Design", "Guidelines"],
+    "year": 2021
+  },
+  {
+    "id": 6,
+    "name": "PWA Weather App",
+    "category": "mobile",
+    "description": "Прогресивний веб-додаток для перегляду прогнозу погоди з offline-режимом",
+    "technologies": ["PWA", "Service Worker", "Weather API"],
+    "year": 2023
+  }
+]

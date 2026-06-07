@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене - Мінісайт на JavaScript</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <!-- Навігація -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <div class="navbar__brand">
+                <a href="../index.html" class="navbar__logo">MyPortfolio</a>
+            </div>
+
+            <button class="navbar__toggle" aria-label="Меню" aria-expanded="false">
+                <span class="navbar__line"></span>
+                <span class="navbar__line"></span>
+                <span class="navbar__line"></span>
+            </button>
+
+            <ul class="navbar__menu">
+                <li><a href="../index.html" class="navbar__link">Головна</a></li>
+                <li><a href="about.html" class="navbar__link">Про мене</a></li>
+                <li><a href="contact.html" class="navbar__link">Контакт</a></li>
+            </ul>
+
+            <button class="theme-toggle" aria-label="Переключити тему" title="Переключити тему">
+                <span class="theme-toggle__icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Основний вміст -->
+    <main class="main">
+        <!-- Про мене секція -->
+        <section class="about">
+            <div class="container">
+                <h1 class="section-title">Про мене</h1>
+                
+                <div class="about__content">
+                    <div class="about__text">
+                        <h2>Привіт! 👋</h2>
+                        <p>Я фронтенд-розробник з 5+ років досвіду в створенні веб-додатків. Спеціалізуюсь на JavaScript, React та сучасних веб-технологіях.</p>
+                        <p>Мною розроблено більш ніж 50 проектів для компаній різних розмірів — від стартапів до корпорацій Fortune 500.</p>
+                        <p>Я захоплююсь створенням красивих і функціональних інтерфейсів, які надають чудовий користувацький досвід.</p>
+                    </div>
+
+                    <div class="about__skills">
+                        <h3>Навички</h3>
+                        <div class="skills-grid">
+                            <div class="skill-tag">HTML5</div>
+                            <div class="skill-tag">CSS3</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">React</div>
+                            <div class="skill-tag">Vue.js</div>
+                            <div class="skill-tag">TypeScript</div>
+                            <div class="skill-tag">REST API</div>
+                            <div class="skill-tag">Git</div>
+                            <div class="skill-tag">Figma</div>
+                            <div class="skill-tag">Webpack</div>
+                            <div class="skill-tag">Node.js</div>
+                            <div class="skill-tag">Testing</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Вкладки експерієнції -->
+                <div class="experience-section">
+                    <h3>Досвід роботи</h3>
+                    
+                    <div class="tabs">
+                        <div class="tabs__buttons">
+                            <button class="tabs__btn tabs__btn--active" data-tab="experience">Роботи</button>
+                            <button class="tabs__btn" data-tab="education">Освіта</button>
+                            <button class="tabs__btn" data-tab="achievements">Досягнення</button>
+                        </div>
+
+                        <div class="tabs__content">
+                            <div id="tab-experience" class="tabs__panel">
+                                <div class="timeline-item">
+                                    <h4>Senior Frontend Developer</h4>
+                                    <p class="timeline-date">2022 - теперішній час</p>
+                                    <p>Веб Студія "InnovateTech". Розробка складних веб-додатків, менторство молодших розробників.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4>Frontend Developer</h4>
+                                    <p class="timeline-date">2019 - 2022</p>
+                                    <p>TechStart Inc. Розробка фронтенду для e-commerce платформи, оптимізація продуктивності.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4>Junior Frontend Developer</h4>
+                                    <p class="timeline-date">2018 - 2019</p>
+                                    <p>WebAgency Pro. Перші проекти на HTML/CSS/JavaScript, робота з дизайнерами та бекенд-командою.</p>
+                                </div>
+                            </div>
+
+                            <div id="tab-education" class="tabs__panel" hidden>
+                                <div class="timeline-item">
+                                    <h4>Бакалавр Інформатики</h4>
+                                    <p class="timeline-date">2016 - 2020</p>
+                                    <p>Національний технічний університет України. Спеціалізація: веб-розробка та програмування.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4>Курси за спеціальністю</h4>
+                                    <p class="timeline-date">2017 - 2023</p>
+                                    <p>Пройшов 15+ курсів по JavaScript, React, TypeScript та сучасній веб-розробці на Udemy, Coursera, egghead.io</p>
+                                </div>
+                            </div>
+
+                            <div id="tab-achievements" class="tabs__panel" hidden>
+                                <div class="timeline-item">
+                                    <h4>🏆 Премія "Best Web Developer 2023"</h4>
+                                    <p class="timeline-date">2023</p>
+                                    <p>Отримана за видатний внесок у розвиток веб-технологій в Україні.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4>🎯 1000+ GitHub зірок</h4>
+                                    <p class="timeline-date">2022</p>
+                                    <p>Мої open-source проекти отримали понад 1000 зірок на GitHub.</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <h4>📊 50+ завершених проектів</h4>
+                                    <p class="timeline-date">2018 - теперішній час</p>
+                                    <p>Успішно завершено понад 50 проектів для клієнтів світу.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Кнопка "Вгору" -->
+    <button class="back-to-top" id="back-to-top" title="Повернутися вгору" hidden>
+        ↑
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> MyPortfolio. Усі права збережені.</p>
+            <p>Розроблено з ❤️ на JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Підключення JavaScript файлів -->
+    <script src="../js/main.js" defer></script>
+    <script src="../js/contact.js" defer></script>
+</body>
+</html>
